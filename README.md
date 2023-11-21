@@ -1,4 +1,6 @@
-# Generate Colorscheme from seed color.
+# Generate Color Scales from seed color.
+
+- [Qiita:シード色からTainwindCSSのカラーパレットを生成して楽をする](https://qiita.com/kedama-t/items/26284af2e961f7c3acbc)
 
 - Inspired by Flutter's [Colorscheme.fromSeed()](https://api.flutter.dev/flutter/material/ColorScheme/ColorScheme.fromSeed.html).
 
