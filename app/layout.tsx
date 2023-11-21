@@ -1,4 +1,4 @@
-import ThemeChanger from './components/ThemeChanger';
+import ThemeSwitcher from './components/ThemeSwitcher';
 import './globals.css';
 import type { Metadata } from 'next';
 
@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body>
-        <ThemeChanger>{children}</ThemeChanger>
+        <ThemeSwitcher>{children}</ThemeSwitcher>
       </body>
     </html>
   );

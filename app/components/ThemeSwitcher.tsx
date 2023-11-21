@@ -2,7 +2,7 @@
 
 import { ReactNode, useState } from 'react';
 
-export default function ThemeChanger(props: { children: ReactNode }) {
+export default function ThemeSwitcher(props: { children: ReactNode }) {
   const [isDark, setIsDark] = useState(false);
 
   return (
@@ -12,7 +12,7 @@ export default function ThemeChanger(props: { children: ReactNode }) {
           className="mx-auto my-4 mb-12 w-96 rounded-xl bg-primary p-2 font-bold uppercase text-on-primary shadow-xl"
           onClick={() => setIsDark(!isDark)}
         >
-          {`Change to ${!isDark ? 'dark' : 'light'} theme.`}
+          {`Switch to ${!isDark ? 'dark' : 'light'} theme.`}
         </button>
       </div>
       {props.children}
